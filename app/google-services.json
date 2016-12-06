@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "881202457303",
+    "firebase_url": "https://messaging-app-68628.firebaseio.com",
+    "project_id": "messaging-app-68628",
+    "storage_bucket": "messaging-app-68628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881202457303:android:ce3c4fa17117fc12",
+        "android_client_info": {
+          "package_name": "com.example.guest.messagingboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881202457303-cib5q2ctvdsjo5vhlkt449nhiknbrngc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.messagingboard",
+            "certificate_hash": "30934792CD0E4C2159EB162B3494027F9C619241"
+          }
+        },
+        {
+          "client_id": "881202457303-38p1ohkutoo1b116182tnqcnrlufkurr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD--zvI0lRigs0YpJuHVF-BemSwHnuoGAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881202457303-38p1ohkutoo1b116182tnqcnrlufkurr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
