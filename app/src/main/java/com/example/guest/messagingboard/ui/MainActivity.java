@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.guest.messagingboard.R;
 import com.example.guest.messagingboard.model.Category;
@@ -18,6 +19,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 
@@ -71,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                intent.putExtra("categoryKey", mCategory.getItem(position).getPushId());
+                intent.putExtra("category", Parcels.wrap(mCategory.getItem(position)));
                 startActivity(intent);
 
             }

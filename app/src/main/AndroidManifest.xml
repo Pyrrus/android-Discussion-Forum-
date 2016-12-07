@@ -20,7 +20,9 @@
         <activity android:name=".ui.SignUpActivity" />
         <activity android:name=".ui.LogInActivity" />
         <activity android:name=".ui.NewCategory" />
-        <activity android:name=".ui.CategoryActivity"></activity>
+        <activity android:name=".ui.CategoryActivity" />
+        <activity android:name=".ui.NewMessageActivity" />
+        <activity android:name=".ui.MassageActivity"></activity>
     </application>
 
 </manifest>

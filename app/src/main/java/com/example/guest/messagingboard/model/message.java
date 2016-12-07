@@ -1,10 +1,13 @@
 package com.example.guest.messagingboard.model;
 
+import org.parceler.Parcel;
+
 import java.util.ArrayList;
 
 /**
  * Created by Guest on 12/6/16.
  */
+@Parcel
 public class Message {
     private String message;
 
@@ -15,6 +18,10 @@ public class Message {
     public Message(String message, String title) {
         this.message = message;
         this.title = title;
+    }
+
+    public Message() {
+
     }
 
     public void setComments(ArrayList<Comment> comments) {
